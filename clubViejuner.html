@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El club Viejuner</title>
+</head>
+<body>
+    <header>
+        <h2>¡Bienvenidos al club Viejuner!</h2>
+        <p>Por favor, rellena este formulario para registrarte.</p>
+    </header>
+    <main>
+        <form action="">
+          <fieldset>
+            <legend>Tú:</legend>
+                <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" autofocus tabindex="1"> <br><br>
+
+                <label for="apellidos">Apellidos:</label> <input type="text" id="apellidos" name="nombre"tabindex="2"> <br><br>
+
+                <label for="edad">Edad:</label> <input type="number" name="edad" id="edad" step="1" tabindex="3">
+
+                <p>Sexo:</p> <input type="radio" name="sexo" id="hombre" value="hombre"><label for="hombre">Hombre</label><input type="radio" name="sexo" id="mujer" value="mujer" ><label for="mujer">Mujer</label> <br><br>
+
+                <label for="siSoy"></label>Me siento viejuner <input type="checkbox" id="siSoy" name="confirmación" value="si" > <br><br>
+
+                <textarea name="cuentanos" id="teCuento" cols="20" rows="5"tabindex="4">Escribe algo sobre ti.</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Tus circunstancias:</legend>
+                <label for="correo">Correo:</label><input type="email" name="contacto" id="correo" placeholder="example@example.com"tabindex="5">
+
+                <label for="telefono">Teléfono:</label><input type="tel" name="contacto" id="telefono" placeholder="933123123"tabindex="6">
+        </fieldset>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+    <footer>
+        <p>Esperamos verte pronto en el club Viejuner.</p>
+    </footer>
+    
+</body>
+</html>
