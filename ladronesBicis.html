@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladronzuelos de bicicletas</title>
+</head>
+<body>
+    <header>
+        <h2>Alquiler de bicicletas</h2>
+        <p>A la luz de las recientes desapariciones de bicicletas, se requiere a todos los usuarios del club Viejuner que rellenen este formulario para seguir la pista de los alquileres de bicicletas.</p>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Alquiler</legend>
+                <label for="dia">Día:</label> <input type="date" name="datos" id="dia">
+                <br><br>
+                <label for="hora">Hora:</label><input type="time" name="datos" id="hora">
+                <br><br>
+                <label for="color">Color de la bicicleta:</label><input type="color" name="datos" id="color">
+                <br><br>
+                <label for="precio">Rango de precio (entre 20€ y 100€):</label><input type="range" name="datos" id="precio" min="20" max="100" step="5">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Detalles de la bicicleta</legend>
+                <p>Tipo de bicicleta:</p>
+                <label for="paseo">Paseo</label><input type="radio" name="tipo" id="paseo">
+                    <ul>
+                        <li>Señorial</li>
+                        <li>Anti-plebeyos</li>
+                        <li>PorEncimaDelHombro</li>
+                    </ul>
+                <label for="montaña">Montaña</label> <input type="radio" name="tipo" id="montaña">
+                    <ul>
+                        <li>Gamusinos</li>
+                        <li>Hueleflores premium</li>
+                        <li>Fango lover</li>
+                    </ul>
+                <label for="carreras">Carreras</label><input type="radio" name="tipo" id="carreras">
+                    <ul>
+                        <li>Metroymedio</li>
+                        <li>3 de la tarde. Fluorescente edition</li>
+                        <li>Grupitors</li>
+                    </ul>
+
+                <p>Accesorios:</p>
+                <input type="checkbox" name="accesorios" id="ruedines"><label for="ruedines">Ruedines</label>
+                <br>
+                <input type="checkbox" name="accesorios" id="pegatinas"><label for="pegatinas">Pegatinas</label>
+                <br>
+                <input type="checkbox" name="accesorios" id="cestita"><label for="cestita">Cestita</label>
+                <br>
+                <input type="checkbox" name="accesorios" id="aire"><label for="aire">Bomba de aire</label>
+                <br>
+                <input type="checkbox" name="accesorios" id="timbre"><label for="timbre">Timbre</label>
+                <br>
+                <input type="checkbox" name="accesorios" id="foco"><label for="foco">Foco</label>
+                <br>
+                <br>
+                <label for="marca">¿Qué marca era?</label><br><input type="text" list="marcas" name="marca" id="marca">
+                <datalist id="marcas">
+                    <option value="specialized">Specialized</option>
+                    <option value="trek">trek</option>
+                    <option value="merida">merida</option>
+                    <option value="scott">scott</option>
+                    <option value="giant">giant</option>
+                    <option value="cube">cube</option>
+                    <option value="lapierre">lapierre</option>
+                    <option value="orbea">orbea</option>
+                    <option value="cannondale">cannondale</option>
+                    <option value="bmc">bmc</option>
+                    <option value="canyon">canyon</option>
+                    <option value="look">look</option>
+                    <option value="protek">protek</option>
+                    <option value="megamo">megamo</option>
+                    <option value="pinarello">pinarello</option>
+                    <option value="bianchi">bianchi</option>
+                    <option value="bh">bh</option>
+                    <option value="factor">factor</option>
+                    <option value="ghost">ghost</option>
+                    <option value="cervélo">cervélo</option>
+                    <option value="argon">argon</option>
+                </datalist>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>¡Gracias por su colaboración!</p>
+    </footer>
+    
+</body>
+</html>
