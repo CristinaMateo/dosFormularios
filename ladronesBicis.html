@@ -14,13 +14,13 @@
         <form action="">
             <fieldset>
                 <legend>Alquiler</legend>
-                <label for="dia">Día:</label> <input type="date" name="dia" id="dia">
+                <label for="dia">Día:</label> <input type="date" name="dia" id="dia" required>
                 <br><br>
-                <label for="hora">Hora:</label><input type="time" name="hora" id="hora">
+                <label for="hora">Hora:</label><input type="time" name="hora" id="hora" required>
                 <br><br>
-                <label for="color">Color de la bicicleta:</label><input type="color" name="color" id="color">
+                <label for="color">Color de la bicicleta:</label><input type="color" name="color" id="color" required>
                 <br><br>
-                <label for="precio">Rango de precio (entre 20€ y 100€):</label><input type="range" name="precio" id="precio" min="20" max="100" step="5">
+                <label for="precio">Rango de precio (entre 20€ y 100€):</label><input type="range" name="precio" id="precio" min="20" max="100" step="5" required>
             </fieldset>
             <br>
             <fieldset>
@@ -59,7 +59,7 @@
                 <input type="checkbox" name="accesorios" id="foco"><label for="foco">Foco</label>
                 <br>
                 <br>
-                <label for="marca">¿Qué marca era?</label><br><input type="text" list="marcas" name="marca" id="marca">
+                <label for="marca">¿Qué marca era?</label><br><input type="text" list="marcas" name="marca" id="marca"  required>
                 <datalist id="marcas">
                     <option value="specialized">Specialized</option>
                     <option value="trek">trek</option>

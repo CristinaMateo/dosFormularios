@@ -14,23 +14,23 @@
         <form action="">
           <fieldset>
             <legend>Tú:</legend>
-                <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" autofocus tabindex="1"> <br><br>
+                <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" autofocus tabindex="1" required> <br><br>
 
-                <label for="apellidos">Apellidos:</label> <input type="text" id="apellidos" name="apellidos"tabindex="2"> <br><br>
+                <label for="apellidos">Apellidos:</label> <input type="text" id="apellidos" name="apellidos"tabindex="2" required> <br><br>
 
-                <label for="edad">Edad:</label> <input type="number" name="edad" id="edad" step="1" tabindex="3">
+                <label for="edad">Edad:</label> <input type="number" name="edad" id="edad" step="1" tabindex="3" required>
 
                 <p>Sexo:</p> <input type="radio" name="sexo" id="hombre" value="hombre"><label for="hombre">Hombre</label><input type="radio" name="sexo" id="mujer" value="mujer" ><label for="mujer">Mujer</label> <br><br>
 
-                <label for="siSoy"></label>Me siento viejuner <input type="checkbox" id="siSoy" name="confirmación" value="si" > <br><br>
+                <label for="siSoy"></label>Me siento viejuner <input type="checkbox" id="siSoy" name="confirmación" value="si" required > <br><br>
 
-                <textarea name="cuentanos" id="teCuento" cols="20" rows="5"tabindex="4">Escribe algo sobre ti.</textarea>
+                <textarea name="cuentanos" id="teCuento" cols="20" rows="5"tabindex="4"  required>Escribe algo sobre ti.</textarea>
         </fieldset>
         <fieldset>
             <legend>Tus circunstancias:</legend>
-                <label for="correo">Correo:</label><input type="email" name="contacto" id="correo" placeholder="example@example.com"tabindex="5">
+                <label for="correo">Correo:</label><input type="email" name="contacto" id="correo" placeholder="example@example.com"tabindex="5" required>
 
-                <label for="telefono">Teléfono:</label><input type="tel" name="contacto" id="telefono" placeholder="933123123"tabindex="6">
+                <label for="telefono">Teléfono:</label><input type="tel" name="contacto" id="telefono" placeholder="933123123"tabindex="6" required>
         </fieldset>
         <br>
         <input type="reset" value="Reset">
